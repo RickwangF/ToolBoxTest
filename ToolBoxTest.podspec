@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ToolBoxTest'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'A Basic Library of Objective-C'
 
 # This description is used to generate tags and improve search results.
@@ -29,8 +29,8 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'ToolBoxTest/Classes/**/*'
-  s.vendored_frameworks = 'ToolBoxTest.framework'
+  #s.source_files = 'ToolBoxTest/*.{framework}'
+  s.vendored_frameworks = 'ToolBoxTest/*.{framework}'
   
   # s.resource_bundles = {
   #   'ToolBoxTest' => ['ToolBoxTest/Assets/*.png']
