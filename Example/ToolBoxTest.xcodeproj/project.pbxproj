@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2EEEB5A47C24DA1BD9E6EDF5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		2EEEB5A47C24DA1BD9E6EDF5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		47298652B0B8A275297ABC2C /* Pods-ToolBoxTest_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToolBoxTest_Tests.release.xcconfig"; path = "Target Support Files/Pods-ToolBoxTest_Tests/Pods-ToolBoxTest_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ToolBoxTest_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToolBoxTest_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -58,7 +58,7 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		65747425E68CD60037314532 /* ToolBoxTest.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ToolBoxTest.podspec; path = ../ToolBoxTest.podspec; sourceTree = "<group>"; };
+		65747425E68CD60037314532 /* ToolBoxTest.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ToolBoxTest.podspec; path = ../ToolBoxTest.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		66DB6394F3AC213364A9F037 /* Pods-ToolBoxTest_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToolBoxTest_Example.release.xcconfig"; path = "Target Support Files/Pods-ToolBoxTest_Example/Pods-ToolBoxTest_Example.release.xcconfig"; sourceTree = "<group>"; };
 		7156B9ED63405DBEF3E7EDB2 /* Pods-ToolBoxTest_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToolBoxTest_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ToolBoxTest_Tests/Pods-ToolBoxTest_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -66,7 +66,7 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D5E0A77FACD7707DA6AD3AE6 /* Pods_ToolBoxTest_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToolBoxTest_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF1F8BED63FA058B656500ED /* Pods_ToolBoxTest_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToolBoxTest_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DFEB01A92DEC463D403C7378 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		DFEB01A92DEC463D403C7378 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				7156B9ED63405DBEF3E7EDB2 /* Pods-ToolBoxTest_Tests.debug.xcconfig */,
 				47298652B0B8A275297ABC2C /* Pods-ToolBoxTest_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

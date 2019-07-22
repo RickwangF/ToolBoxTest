@@ -1,0 +1,6 @@
+framework module ToolBoxTest {
+  umbrella header "ToolBoxTest.h"
+
+  export *
+  module * { export * }
+}

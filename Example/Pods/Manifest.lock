@@ -1,0 +1,16 @@
+PODS:
+  - ToolBoxTest (0.1.0)
+
+DEPENDENCIES:
+  - ToolBoxTest (from `../`)
+
+EXTERNAL SOURCES:
+  ToolBoxTest:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ToolBoxTest: 7657ad302c3a55b681c1416fc7939184b29cc9a3
+
+PODFILE CHECKSUM: 322faa7e524a17c1e869236fa9c604cb54f85767
+
+COCOAPODS: 1.7.4
