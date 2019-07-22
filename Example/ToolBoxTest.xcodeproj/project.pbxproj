@@ -247,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "woshiwwy16@126.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 8W7NY9PTY5;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -494,6 +497,7 @@
 			baseConfigurationReference = 79E41C82D3A144178BA17E60 /* Pods-ToolBoxTest_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8W7NY9PTY5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ToolBoxTest/ToolBoxTest-Prefix.pch";
 				INFOPLIST_FILE = "ToolBoxTest/ToolBoxTest-Info.plist";
@@ -510,6 +514,7 @@
 			baseConfigurationReference = 66DB6394F3AC213364A9F037 /* Pods-ToolBoxTest_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8W7NY9PTY5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ToolBoxTest/ToolBoxTest-Prefix.pch";
 				INFOPLIST_FILE = "ToolBoxTest/ToolBoxTest-Info.plist";
